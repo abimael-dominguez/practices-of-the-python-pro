@@ -25,7 +25,7 @@ def get_matches_for_pattern(pattern, string):  # <1>
     return [match[0] for match in matches]
 
 
-product_review = '...'
+product_review = """This is an Abimael's change. For a new review."""
 
 sentence_pattern = re.compile(r'(.*?\.)(\s|$)', re.DOTALL)
 sentences = get_matches_for_pattern(  # <2>
